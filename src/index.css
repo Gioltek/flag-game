@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+img {
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(145, 168, 182);
+  color: white;
+}
+
+button {
+  background-color: rgb(80, 147, 189);
+  border: none;
+  border-radius: 0.25rem;
+  color: rgb(6, 35, 58);
+  font-weight: 700;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+button:active {
+  transition-duration: 300ms;
+  filter: brightness(0.75);
+}
+
+.accent {
+  background-color: rgb(187, 202, 212);
+  color: rgb(21, 56, 78);
+  padding: 1rem 3rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  background-color: rgb(31, 84, 117);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-top: 2.25rem;
+}
+
+.game-container {
+  max-width: 70%;
+}
+
+.flag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.flag-container p {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.game-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.75rem;
+  gap: 5rem;
+}
+
+footer button {
+  color: black;
+  background-color: transparent;
+  font-size: 0.75rem;
+}
+
+p span {
+  color: rgb(126, 184, 223);
+  font-size: 1.25rem;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-weight: 600;
+  margin: 0.25rem;
+}
+
+footer button {
+  padding: 0.35rem;
+  background-color: rgb(80, 147, 189);
+  color: rgb(5, 36, 61);
+  border-radius: 0.15rem;
+  margin-left: 1.5rem;
 }
